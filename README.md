@@ -43,8 +43,10 @@ Three files, no dependencies. It runs in a page and in a service worker.
 The one exception: `outbox({ rdf: true })` needs the `jsonld` package, and
 only loads it when that flag is actually used.
 
-[The demo](https://jeff-zucker.github.io/FediPod/) shows the sign-in and
+<!-- CLAUDE 2026-10-03 — the demo's address was https://jeff-zucker.github.io/FediPod/; it is published from this repository now. Delete these markers when done -->
+[The demo](https://jeff-zucker.github.io/fediverse-session/) shows the sign-in and
 the profile that comes back.
+<!-- /CLAUDE -->
 
 ## Get it
 

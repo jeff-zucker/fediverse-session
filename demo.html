@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Act as a Fediverse account</title>
-<link rel="stylesheet" href="../../web/admin/tokens.css">
+<link rel="stylesheet" href="tokens.css">
 <style>
   body { font-family: var(--font, Arial, Helvetica, sans-serif); background: var(--bg); color: var(--fg); margin: 0; padding: .75rem 1rem 2rem; }
   main { max-width: 44rem; margin: 0 auto; }
@@ -39,7 +39,7 @@
     <li><strong>Other Fediverse handle</strong> — <code>@you@mastodon.social</code> — signs in at your server</li>
     <li><strong>A WebID</strong> — <code>https://you.solidcommunity.net/profile/card#me</code> — signs in at your Solid pod</li>
   </ul>
-  <p>This demo is created with the <a href="https://github.com/jeff-zucker/FediPod/tree/main/lib/session">fediverse-session</a> library. Once signed in, the demo shows you your profile. The library itself returns an account session with methods to post, reply, like, etc.</p>
+  <p>This demo is created with the <a href="https://github.com/jeff-zucker/fediverse-session">fediverse-session</a> library. Once signed in, the demo shows you your profile. The library itself returns an account session with methods to post, reply, like, etc.</p>
   <form id="form">
     <label>Your address
       <input id="address" name="address" type="text" autocomplete="username" placeholder="@you@your.server" required>

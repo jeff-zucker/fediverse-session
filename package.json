@@ -7,10 +7,10 @@
   "author": "Jeff Zucker",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeff-zucker/FediPod.git",
-    "directory": "lib/session"
+    "url": "git+https://github.com/jeff-zucker/fediverse-session.git"
   },
-  "homepage": "https://github.com/jeff-zucker/FediPod/tree/main/lib/session#readme",
+  "homepage": "https://github.com/jeff-zucker/fediverse-session#readme",
+  "bugs": "https://github.com/jeff-zucker/fediverse-session/issues",
   "keywords": [
     "fediverse",
     "activitypub",
@@ -35,7 +35,8 @@
     "./oidc-session.mjs": "./oidc-session.mjs"
   },
   "scripts": {
-    "prepublishOnly": "node ../../scripts/check-pod-calls.mjs"
+    "test": "node --test test/*.test.mjs",
+    "prepublishOnly": "npm test"
   },
   "dependencies": {},
   "peerDependencies": {
